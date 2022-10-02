@@ -1,0 +1,275 @@
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+:root {
+    --black-color: #212121;
+    --blue-color: #2196F3;
+    --white-color: #FFFFFF;
+    --light-grey-color: #F5F4FA;
+    --dark-gray-color: #757575;
+    --dark-gray-bg-color: #2F303A;
+    --light-gray-bg-color: #E5E5E5;
+    --light-white-color: rgba(255, 255, 255, 0.6);
+    --hr-color: #ECECEC;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--black-color);
+    background-color: var(--light-gray-bg-color);
+}
+
+footer {
+    background-color: var(--dark-gray-bg-color);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    color: var(--white-color);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+header {
+    background-color: var(--white-color);
+    /* padding: 32px; */
+}
+
+hr {
+    width: 100%;
+    border: 1px solid var(--hr-color);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+p {
+    font-size: 16px;
+    color: var(--dark-gray-color);
+    line-height: 1.9;
+}
+
+.articles-company-values {
+    background-color: var(--white-color);
+}
+
+.articles-company-values>p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.banner {
+    background-color: var(--dark-gray-bg-color);
+    text-align: center;
+}
+
+.banner>button {
+    background-color: var(--blue-color);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--white-color);
+    line-height: 1.9;
+    margin: 30px;
+}
+
+.banner>button:hover {
+    cursor: pointer;
+}
+
+.catalogue {
+    background: var(--white-color);
+    border-bottom: 1px solid #EEEEEE;
+    flex-basis: calc((100% - 215px) / 3);
+    margin: 30px;
+}
+
+.catalogue-briefcase {
+    background-color: var(--white-color);
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    padding: 82px;
+}
+
+.catalogue-filter {
+    background: var(--white-color);
+    text-align: center;
+    padding-top: 106px;
+    padding-right: 8px;
+}
+
+.container {
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 94px;
+}
+
+.company-contact {
+    display: flex;
+}
+
+.contact {
+    color: var(--dark-gray-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.contact:hover {
+    text-decoration: none;
+    color: var(--blue-color);
+}
+
+
+.img-team {
+    background-color: var(--white-color);
+}
+
+.img-team>div {
+    margin: 39px;
+}
+
+.img-team,
+.image,
+.feature-company:not(:last-child) {
+    margin-right: 30px;
+}
+
+.features-company {
+    margin-right: 30px;
+}
+
+.location {
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.location>a {
+    color: var(--light-white-color);
+}
+
+.location>a:hover {
+    color: var(--blue-color);
+}
+
+.logo {
+    color: var(--blue-color);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.menu {
+    margin: 0;
+    list-style: none;
+    background-color: var(--white-color);
+}
+
+.menu>.item,
+.company-contact>.contact:not(:last-child) {
+    margin-right: 50px;
+}
+
+.menu>.item:last-child {
+    margin-right: 344px;
+}
+
+.menu .link {
+    color: var(--black-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.menu .link:hover {
+    text-decoration: none;
+    color: var(--blue-color);
+}
+
+.our-team {
+    text-align: center;
+}
+
+.page-main {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-filter {
+    background: var(--light-grey-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.portfolio-filter:hover {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.services {
+    background-color: var(--white-color);
+}
+
+
+.social-networks>p {
+    color: var(--white-color);
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.title-our-team {
+    margin-bottom: 50px;
+}
+
+.title-services {
+    margin-bottom: 55px;
+}
