@@ -51,6 +51,7 @@ h3 {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
+    padding-bottom: 10px;
 }
 
 h4 {
@@ -67,7 +68,6 @@ h5 {
 
 header {
     background-color: var(--white-color);
-    /* padding: 32px; */
 }
 
 hr {
@@ -101,6 +101,10 @@ p {
     line-height: 1.7;
 }
 
+.bg-portafolio {
+    background-color: var(--white-color);
+}
+
 .banner {
     background-color: var(--dark-gray-bg-color);
     text-align: center;
@@ -129,16 +133,12 @@ p {
 .catalogue-briefcase {
     background-color: var(--white-color);
     flex-wrap: wrap;
-    position: relative;
-    justify-content: center;
-    padding: 82px;
 }
 
 .catalogue-filter {
     background: var(--white-color);
     text-align: center;
-    padding-top: 106px;
-    padding-right: 8px;
+    padding-bottom: 50px;
 }
 
 .container {
@@ -146,6 +146,7 @@ p {
     align-items: center;
     justify-content: center;
     padding: 94px;
+    margin: 0 auto;
 }
 
 .company-contact {
@@ -170,7 +171,7 @@ p {
 }
 
 .img-team>div {
-    margin: 39px;
+    padding: 39px;
 }
 
 .img-team,
@@ -180,7 +181,7 @@ p {
 }
 
 .features-company {
-    margin-right: 30px;
+    padding-right: 30px;
 }
 
 .location {
@@ -218,7 +219,7 @@ p {
 }
 
 .menu>.item:last-child {
-    margin-right: 344px;
+    margin-right: 250px;
 }
 
 .menu .link {
