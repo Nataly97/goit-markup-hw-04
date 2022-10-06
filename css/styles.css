@@ -28,6 +28,7 @@ body {
 
 footer {
     background-color: var(--dark-gray-bg-color);
+    padding: 60px;
 }
 
 h1 {
@@ -79,7 +80,9 @@ img {
     max-width: 100%;
     height: auto;
 }
-
+nav{
+    padding: 32px;
+}
 ul {
     display: flex;
     list-style: none;
@@ -145,7 +148,6 @@ p {
     width: 1200px;
     align-items: center;
     justify-content: center;
-    padding: 94px;
     margin: 0 auto;
 }
 
@@ -256,6 +258,11 @@ p {
     cursor: pointer;
 }
 
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
 .services {
     background-color: var(--white-color);
 }
