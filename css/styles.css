@@ -80,9 +80,11 @@ img {
     max-width: 100%;
     height: auto;
 }
-nav{
+
+nav {
     padding: 32px;
 }
+
 ul {
     display: flex;
     list-style: none;
@@ -133,16 +135,16 @@ p {
     margin: 30px;
 }
 
-.catalogue:hover{
+.catalogue:hover {
     cursor: pointer;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.catalogue>div{
+.catalogue>div {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
-    padding-right: 24px;  
+    padding-right: 24px;
 }
 
 .catalogue-briefcase {
@@ -156,7 +158,7 @@ p {
     padding-bottom: 50px;
 }
 
-.catalogue-filter>button{
+.catalogue-filter>button {
     border: none;
     background: #F5F4FA;
     border-radius: 4px;
@@ -190,8 +192,59 @@ p {
     color: var(--blue-color);
 }
 
-.icons-values{
+.icons-contact>svg {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+
+}
+
+.icons-customers {
+    display: flex;
+    margin-top: 44px;
+    margin-bottom: 57px;
+}
+
+.icons-customers>svg {
+    margin-right: 30px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 80px;
+}
+
+.icons-networks {
+    display: flex;
+}
+
+.icons-networks>svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* .icons-networks>svg:hover{
+   cursor: pointer;
+   background-color: var(--blue-color);
+} */
+
+.icons-networks.card {
+    margin-top: 16px;
+    justify-content: center;
+}
+
+.icons-values {
     padding-bottom: 30px;
+}
+
+.icons-values>svg {
+    width: 270px;
+    height: 120px;
+}
+
+.icon rect {
+    fill: transparent;
+    stroke: #FFF;
 }
 
 .img-team {
@@ -201,7 +254,7 @@ p {
 }
 
 .img-team>div {
-    padding: 39px;
+    margin: 30px;
 }
 
 .img-team,
@@ -287,15 +340,19 @@ p {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.section{
+.regular-customers {
+    background-color: var(--light-grey-color);
+}
+
+.section {
     padding-top: 94px;
     padding-bottom: 94px;
 
 }
+
 .services {
     background-color: var(--white-color);
 }
-
 
 .social-networks>p {
     color: var(--white-color);
