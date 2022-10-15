@@ -10,6 +10,8 @@
     --light-gray-bg-color: #E5E5E5;
     --light-white-color: rgba(255, 255, 255, 0.6);
     --hr-color: #ECECEC;
+    --color-icons: #AFB1B8;
+
 }
 
 * {
@@ -77,6 +79,7 @@ hr {
 }
 
 img {
+    display: block;
     max-width: 100%;
     height: auto;
 }
@@ -122,6 +125,11 @@ p {
     color: var(--white-color);
     line-height: 1.9;
     margin: 30px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
 }
 
 .banner>button:hover {
@@ -171,82 +179,109 @@ p {
 
 .container {
     width: 1200px;
-    align-items: center;
     justify-content: center;
     margin: 0 auto;
 }
 
-.company-contact {
-    display: flex;
+.container-contact {
+    margin-right: 10px;
+    fill: var(--dark-gray-color);
 }
 
-.contact {
+.container-contact>a {
     color: var(--dark-gray-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
 }
 
-.contact:hover {
-    text-decoration: none;
-    color: var(--blue-color);
+.container-networks {
+    position: relative;
+    bottom: 100px;
+    left: 564px;
 }
 
-.icons-contact>svg {
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
+.company-contact {
+    display: flex;
+}
 
+.company-contact>div {
+    margin-right: 30px;
+}
+
+.company-contact>div:hover * {
+    text-decoration: none;
+    color: var(--blue-color);
+    fill: var(--blue-color);
+}
+
+.icon-card {
+    margin: 0 auto;
+    height: 44px;
+    width: 44px;
+    fill: var(--color-icons);
+}
+
+.icon-card>svg {
+    margin: 12px;
 }
 
 .icons-customers {
-    display: flex;
     margin-top: 44px;
     margin-bottom: 57px;
+    display: flex;
+    justify-content: center;
 }
 
 .icons-customers>svg {
-    margin-right: 30px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid var(--color-icons);
     border-radius: 4px;
-    width: 170px;
-    height: 80px;
+    margin: 0 auto;
+    fill: var(--color-icons);
+}
+
+.icons-customers>svg:hover {
+    cursor: pointer;
+    fill: var(--blue-color);
+    border: 1px solid var(--blue-color);
 }
 
 .icons-networks {
     display: flex;
+    margin: 0 auto;
 }
 
-.icons-networks>svg {
-    width: 20px;
-    height: 20px;
+.icon-networks-company {
+    height: 44px;
+    width: 44px;
+    fill: var(--color-icons);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
     margin-right: 10px;
+    margin-top: 20px;
 }
 
-/* .icons-networks>svg:hover{
-   cursor: pointer;
-   background-color: var(--blue-color);
-} */
+.icon-networks-company>svg {
+    margin: 12px;
+}
 
-.icons-networks.card {
-    margin-top: 16px;
-    justify-content: center;
+.icons-networks>div:hover {
+    background-color: var(--blue-color);
+    fill: var(--white-color);
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .icons-values {
     padding-bottom: 30px;
 }
 
-.icons-values>svg {
-    width: 270px;
-    height: 120px;
-}
-
-.icon rect {
+/* .icon rect {
     fill: transparent;
     stroke: #FFF;
 }
 
+} */
 .img-team {
     background-color: var(--white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -347,7 +382,6 @@ p {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-
 }
 
 .services {
@@ -358,6 +392,10 @@ p {
     color: var(--white-color);
     font-size: 14px;
     line-height: 1.2;
+}
+
+.title-networks {
+    color: var(--white-color);
 }
 
 .title-our-team {
